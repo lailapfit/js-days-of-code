@@ -24,6 +24,11 @@ Input: x = -101
 Output: false
  */
 
+/**
+ *
+ * @param {Number} num
+ * @returns {boolean}
+ */
 function isNumberPalindrome(num) {
   let numReverse = "";
   const numsStr = num.toString();
