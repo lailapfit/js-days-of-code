@@ -22,6 +22,12 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
  */
 
+/**
+ *
+ * @param {Array} nums
+ * @param {number} target
+ * @returns {number[]} array of indices
+ */
 function twoSum(nums, target) {
   let sums = {};
 
